@@ -46,13 +46,19 @@ export const USER_DETAILS={
 
 export const CAREER_SUMMARY={
     HEADING:"CAREER SUMMARY",
-    DESCRIPTION: "Results-driven IT professional with 3+ years of industry experience, specializing in multitasking and certified as a Salesforce Developer and Administrator. Proven track record in real sales management across diverse companies. Committed to continuous learning, certified in analyzing, designing, and optimizing business processes.Experienced Math teacher for 14 years, contributing to the educational community through seminars, events, and club creation. Seeking to specialize further by actively participating in projects that contribute to personal and professional growth. Known for streamlining processes and fostering a positive environment at every stage" ,
+    DESCRIPTION: "Results-oriented IT professional with 3+ years of industry experience, specializing in multi-tasking and certified as a Salesforce Developer" ,
     KEYS_POINTS:[
+        "Problem Solver || Flexibility || Multitasking Skills || Passionate || CRM Experience   || Strong Work EthicPublic speaking skills || Fast Learner || Hardworking  || Positive || Organizing ||Organizing || Time Management Goal-oriented || Energetic || Highly Self-Responsible || Communication || Analytical Thinking||Excellent analytical||collaboration skills||Fast learner||investigative||self-starting professional||",
+        "Effective team member with strong verbal and written communication skills, Able to maintain a detailed-oriented approach in a fast-paced environment",
+        "Committed to continuous learning, certified in analyzing, designing and optimizing business processes",
+        "Experienced in developing customer-specific solutions using programmatic tools such as Apex Classes and Triggers by implementing/calling SOQL, SOSL Queries within Governer Limits",
+        "Has strong knowledge of integrating external applications with salesforce.com, both inbound and outbound, by writing Apex SOAP and REST Web Services and Apex Callouts",
+        "Proficient in using declarative tools such as Flows, Approval Process, Formula fields, Validation Rules, and Reports and Dashboards to meet business requirements",
         "Experienced Mathematics Teacher, Education Coach, and Assistant Principal with a global track record in private schools and courses",
         "Led a Mathematics Club and coordinated social activities. ",
         "Managed a profitable shopping store from 2016 to 2020, achieving a 30% profit upon handover.",
-        "In 2021, I prepared an exam preparation Math Question Book. ",
-        "Problem Solver || Flexibility || Multitasking Skills || Passionate || CRM Experience   || Strong Work EthicPublic speaking skills || Fast Learner || Hardworking  || Positive || Organizing ||Organizing || Time Management Goal-oriented || Energetic || Highly Self-Responsible || Communication || Analytical Thinking",
+        "In 2021, I prepared an exam preparation Math Question Book ",
+
      
     ]
 }
@@ -63,27 +69,67 @@ export const CAREER_SUMMARY={
 export const EXPERIENCE_DATA={
     HEADING: "Work Experience",
     EXPERIENCES: [
-
-          {
-            ROLE: "Salesforce Junior Developer",
-            COMPANY_NAME: "RemeConsult",
-            DURATION: "2021-2023",
+        {
+            ROLE: "Salesforce Developer ",
+            COMPANY_NAME: "ChangeFundation",
+            DURATION: "2024",
             DESCRIPTION:
-                "We built a Holiday Village that offers accommodation for individuals and groups and also hosts events such as weddings, concerts, panels, etc....Experienced Salesforce Developer with a proven track record in successfully completing a hotel management system project using Sales Cloud and Salesforce's Unlimited Edition.Managed a diverse team within an Agile environment, contributing to daily stand-ups, sprint planning, and retrospective meetings. Skilled in Git and Bitbucket for version control, I deployed changes through Change Sets and collaborated on REST API integration for website reservations. Proficient in creating Reports and Dashboards, my expertise lies in optimizing business processes and delivering innovative solutions.. ",
+                "In the Change Force Foundation project, we worked on designing the project from start to finish, preparing user stories, establishing the website and getting it ready. This project is a project developed based on the needs of companies in the law firm system.The project continues",
+            
+            TECHNOLOGIES_USED: {
+                HEADING: 'Technologies used',
+                LIST: [
+                    "Experience Cloud-Sales Cloud",
+                    "Apex programming",
+                    "Agile methodology",
+                    "Validation",
+                    "Trigger",
+                    "Flow",
+                    "Unit Test class",
+                    "SOQL",
+                    "LWC",
+                    
+                ]
+            }
+        },
           
+    
+           
+    
+              { 
+                ROLE: "Salesforce Developer",
+                COMPANY_NAME: "Project Force Hub",
+                DURATION: "2023-2024",
+                DESCRIPTION:
+                    "Accomplished the seamless integration of an educational website into Salesforce, ensuring optimal data flow and system efficiency ",
+                DESCRIPTION_POINTS: [
+                    " Accomplished the seamless integration of an educational website into Salesforce, ensuring optimal data flow and system efficiency",
+                    "Used Apex and Lightning Web Components to create custom features and enhance functionality as per our needs",
+                    "Developed Salesforce declarative solutions that automate processes and simplify user experience using Flow Builder and Validations",
+                    "Performed testing and debugging on components, ensuring smooth performance and adherence to best practices",
+                    "Integrated third-party applications using REST APIs increase efficiency and reduce manual data entry",
+                    "Conclusion: Proven ability to integrate systems seamlessly and optimize user experiences in Salesforce environments, combining technical expertise with creative solutions",
+                ],
                 TECHNOLOGIES_USED: {
                     HEADING: 'Technologies used',
                     LIST: [
-                        "Sales cloud",
-                        "Validation rules",
-                        "Agile methodology",
-                        "Approval processes",
+                        "Apex Programming",
+                        "Custom Meta Data",
                         "Flow",
-                        "Trigger",
                         "HTML",
                         "LWC",
+                        "Javascript",
+                        "CSS",
+                        "Integration",
+                        "Rest-API",
+                        "Visual Force",
+                        "API Log -Error Logs",
+                        "Sales cloud",
+                        "Agile methodology",
+                        "Trigger",
+                        "Static  Resource",
                     ]
-                },
+                }
             },
     
             {
@@ -107,68 +153,31 @@ export const EXPERIENCE_DATA={
                     ]
                 }
             },
-    
-              { 
-                ROLE: "Salesforce Developer",
-                COMPANY_NAME: "Project Force Hub",
-                DURATION: "2023-2024",
+
+
+
+            {
+                ROLE: "Salesforce Junior Developer",
+                COMPANY_NAME: "RemeConsult",
+                DURATION: "2021-2023",
                 DESCRIPTION:
-                    "Accomplished the seamless integration of an educational website into Salesforce, ensuring optimal data flow and system efficiency ",
-                DESCRIPTION_POINTS: [
-                    " Developed robust Apex classes for handling contact and course updates with a focus on best coding practices. Implemented user-friendly buttons using Flow and established errorLogs for effective debugging. Utilized custom meta data for personalized email campaigns, enhancing user engagement. Employed Lightning Web Components (LWC) to visually enhance profiles and dynamically manage page fields.   r.",
-                    "Created customizable dynamic panels on contact pages through Flow Screen for enhanced user interaction.",
-                    "Innovated with a 'Studied Days' field using Apex and LWC for efficient monthly progress tracking.",
-                    "Introduced dynamic progress tracking for students using LWC, Flow, Custom Meta Data, and Apex classes.",
-                    "Proven ability to integrate systems seamlessly and optimize user experiences in Salesforce environments, combining technical expertise with creative solutions.",
-                ],
-                TECHNOLOGIES_USED: {
-                    HEADING: 'Technologies used',
-                    LIST: [
-                        "Apex Programming",
-                        "Custom Meta Data",
-                        "Flow",
-                        "HTML",
-                        "LWC",
-                        "Javascript",
-                        "CSS",
-                        "Integration",
-                        "Rest-API",
-                        "Visual Force",
-                        "API Log -Error Logs",
-                    
-                    ]
-                }
-            },
-    
-            
-
-
-    
-          {
-                ROLE: "Salesforce Developer ",
-                COMPANY_NAME: "CALINTECH",
-                DURATION: "2022-2023",
-                DESCRIPTION:
-                    "Its a Salesforce admin project aimed at managing the sales and rental of cars. The project includes a comprehensive database of cars for sale and rent, enabling customers to browse through available vehicles and make a selection based on their preferences.. ",
-                
-                TECHNOLOGIES_USED: {
-                    HEADING: 'Technologies used',
-                    LIST: [
-                        "Deployment with change set",
-                        "Agile methodology",
-                        "Validation",
-                        "Trigger",
-                        "Flow",
-                        "Unit Test class",
-                        "SOQL",
-                        "LWC",
-                    ]
-                }
-            },
-
-
+                    "We built a Holiday Village that offers accommodation for individuals and groups and also hosts events such as weddings, concerts, panels..Experienced Salesforce Developer with a proven track record in successfully completing a hotel management system project using Sales Cloud and Salesforce's Unlimited Edition.Managed a diverse team within an Agile environment, contributing to daily stand-ups, sprint planning, and retrospective meetings. Skilled in Git and Bitbucket for version control, I deployed changes through Change Sets and collaborated on REST API integration for website reservations. Proficient in creating Reports and Dashboards, my expertise lies in optimizing business processes and delivering innovative solutions.",
+              
+                    TECHNOLOGIES_USED: {
+                        HEADING: 'Technologies used',
+                        LIST: [
+                            "Sales cloud",
+                            "Validation rules",
+                            "Agile methodology",
+                            "Approval processes",
+                            "Flow",
+                            "Trigger",
+                            "HTML",
+                            "LWC",
+                        ]
+                    },
+                },
          
-
 
              ]
        }
